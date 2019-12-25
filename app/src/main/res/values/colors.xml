@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //NormalMode
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">@color/black</color>
+    <color name="colorBtnDisable">#cbe8d6</color>
+    <color name="colorPrimary1">#dbedc7</color>
+    <color name="colorCancelBtn">#3C3E40</color>
+    <color name="colorFontAdd">#212121</color>
+
+    //DarkMode
+    <color name="darkModeDarkGray">#1a2521</color>
+    <color name="darkModeFontColor">#fff</color>
+    <color name="greenState">#47D476</color>
+    <color name="blueState">#0095ff</color>
+    <color name="redState">#ff3548</color>
+</resources>

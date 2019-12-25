@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:id="@+id/T"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:text=""
+        android:background="@drawable/rounded_blue_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/H"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="8dp"/>
+
+    <Button
+        android:id="@+id/H"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:text=""
+        android:background="@drawable/rounded_blue_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/S"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/T"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="8dp"/>
+
+    <Button
+        android:id="@+id/S"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:text=""
+        android:background="@drawable/rounded_blue_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/H"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="8dp"/>
+</android.support.constraint.ConstraintLayout>

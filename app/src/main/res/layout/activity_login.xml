@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundedit"
+    android:gravity="center"
+    android:orientation="horizontal"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/Logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:alpha=".65"
+        android:background="@drawable/rounded_iamge"
+
+        android:src="@drawable/thumbnail" />
+
+    <LinearLayout
+        android:layout_width="448dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/text_input_user"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:theme="@style/MyEditText"
+            app:errorEnabled="true"
+            app:errorTextAppearance="@style/MyErrorText">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/century_gothic"
+                android:hint="@string/username"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="text"
+                android:theme="@style/MyEditText" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/text_input_password"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:theme="@style/MyEditText"
+            app:errorEnabled="true"
+            app:errorTextAppearance="@style/MyErrorText"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/century_gothic"
+                android:hint="@string/password"
+                android:imeOptions="flagNoExtractUi"
+                android:inputType="textPassword"
+                android:theme="@style/MyEditText" />
+        </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/new_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:background="@drawable/rounded_blue_btn"
+                android:onClick="registerBtn"
+                android:padding="18dp"
+                android:text="@string/registration_screen" />
+
+            <Button
+                android:id="@+id/login_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="120dp"
+                android:background="@drawable/rounded_green_btn"
+                android:onClick="Login"
+                android:padding="18dp"
+                android:text="@string/login" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

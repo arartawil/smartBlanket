@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@android:drawable/ic_lock_power_off"
+            android:title="@string/logout" />
+        <item
+            android:id="@+id/nav_add"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="@string/add_patient" />
+        <item
+            android:id="@+id/nav_remove"
+            android:icon="@android:drawable/ic_menu_delete"
+            android:title="@string/remove_patient" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="@string/change_password" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="@string/history" />
+    </group>
+
+</menu>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "922399825824",
+    "firebase_url": "https://samrtb-d0339.firebaseio.com",
+    "project_id": "samrtb-d0339",
+    "storage_bucket": "samrtb-d0339.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922399825824:android:913c8f264943d158fecec5",
+        "android_client_info": {
+          "package_name": "com.example.smartblanket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922399825824-dt2108pu54vdo20j1111qadegji4sf67.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smartblanket",
+            "certificate_hash": "e1cae1f447f65d53f34e614c9246c1387d283aec"
+          }
+        },
+        {
+          "client_id": "922399825824-4v4mnugktb8icbghab9cdd0tmiveh2os.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlY4EcGd22YnopN5WSpASN73b-SZukRQo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922399825824-4v4mnugktb8icbghab9cdd0tmiveh2os.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
